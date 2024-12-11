@@ -43,7 +43,7 @@ h1 {
     font-weight: 400;
     font-size: 90px;
     padding-right: 30px;
-    padding-left: 10%;
+    padding-left: 70px;
     margin-bottom: 0;
 }
 
@@ -61,5 +61,135 @@ p{
     overflow: hidden; 
     position: relative;
     min-width: 55%;
+}
+
+@media screen and (max-width: 1600px){
+    h1{
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .navbar{
+        display:flex;
+        flex-direction:column;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
+    #cvprimary{
+        width: 500px;
+        height: auto;
+    }
+
+    #value-button{
+        order: 2;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        /*border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        margin: 0px; */
+    }
+
+    #drinks-button{
+        order: 3;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    main{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+    }
+
+    .homepage-text{
+        order: 2;
+    }
+
+    .image-container {
+        width: 600px; 
+        height: 800px;
+        overflow: hidden; 
+        position: relative;
+        min-width: 55%;
+    }
+
+    h1{
+        font-size: 60px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    p{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .navbar{
+        display:flex;
+        flex-direction:column;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
+    #cvprimary{
+        width: 300px;
+        height: auto;
+    }
+
+    #value-button{
+        order: 2;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        /*border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        margin: 0px; */
+    }
+
+    #drinks-button{
+        order: 3;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    main{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+    }
+
+    .homepage-text{
+        order: 2;
+    }
+
+    .image-container {
+        width: 300px; 
+        height: 500px;
+        overflow: hidden; 
+        position: relative;
+        min-width: 55%;
+    }
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    p{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
 }
 

@@ -25,19 +25,41 @@ button{
     font-size: 30px;
     border: 0px;
     background-color: #d0c9bd;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 main{
-
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row-reverse;
+    align-items: center; 
+    padding: 20px;
+    gap: 20px; 
 }
 
 h1 {
     font-family: "Cinzel";
     font-weight: 400;
-    font-size: 60px;
+    font-size: 90px;
+    padding-right: 30px;
+    padding-left: 10%;
+    margin-bottom: 0;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-top: 1px;
 }
+
+.image-container {
+    width: 600px; 
+    height: 1000px;
+    overflow: hidden; 
+    position: relative;
+    min-width: 55%;
+}
+

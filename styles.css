@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Fascinate&family=Italiana&family=Shippori+Antique&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d0c9bd;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #000000;
+}
+
+#cvprimary{
+    width: 500px;
+    height: auto;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 0px;
+    background-color: #d0c9bd;
+}
+
+main{
+
+}
+
+h1 {
+    font-family: "Cinzel";
+    font-weight: 400;
+    font-size: 60px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Fascinate&family=Italiana&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Fascinate&family=Italiana&family=Shippori+Antique&display=swap');
 
 *{
     box-sizing: border-box;
@@ -47,6 +48,15 @@ h1 {
     margin-bottom: 0;
 }
 
+h2 {
+    font-family: "Bebas Neue";
+    font-size: 52px;
+    padding-right: 30px;
+    padding-left: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -63,12 +73,63 @@ p{
     min-width: 55%;
 }
 
+.main-value-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mindful-value{
+    display: flex;
+    flex-direction: row;
+}
+
+.wellness-value{
+    display: flex;
+    flex-direction: row;
+}
+
+#mindful-pic {
+    width: 800px; 
+    height: 800px;
+    object-fit: cover; 
+    object-position: center;
+    min-width: 50%;
+    order: 1;
+}
+
+#mindful-text {
+    order: 2;
+    padding-right: 300px;
+    padding-top: 200px;
+    p{
+        padding-left: 70px;
+    }
+}
+
+#wellness-pic {
+    width: 800px; 
+    height: 800px;
+    object-fit: cover; 
+    object-position: center;
+    min-width: 50%;
+}
+
+#wellness-text {
+    padding-right: 300px;
+    padding-top: 200px;
+    p{
+        padding-left:70px;
+    }
+}
+
 @media screen and (max-width: 1600px){
     h1{
         font-size: 60px;
     }
 
 }
+
+
 
 @media screen and (max-width: 800px){
     .navbar{

@@ -125,6 +125,58 @@ p{
     }
 }
 
+#our-drinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.drink-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    
+    button{
+        background-color: #000000;
+        color: #d0c9bd;
+        margin: 10px;
+        border-radius: 15px 15px 15px 15px;
+    }
+}
+
+
+.cloud-vine-drinks {
+    display: flex;
+    flex-direction: row;
+
+    #drink-image {
+        width: 900px; 
+        height: 900px;
+        object-fit:contain; 
+        object-position: center;
+        min-width: 50%;
+        padding-right: 0px;
+    }
+    
+    .drink-text {
+        display: flex;
+        flex-direction: column;
+        padding-right: 500px;
+        padding-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1600px){
     h1{
         font-size: 60px;

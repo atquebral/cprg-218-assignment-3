@@ -16,3 +16,11 @@ crimsonglow.addEventListener('click', function(){
     document.getElementById('drink-image').src="images/crimson-glow.png";
     drinkdescription.innerHTML = "A harmonious mix of tart cherries and the citrusy, herbal notes of lemon balm. This blend is designed to uplift your mood with L-theanine for gentle focus and lemon balm to ease stress. A vibrant, refreshing drink for moments when you want clarity and balance.";
 })
+
+/*document.getElementById('value-button').addEventListener('click',function(){
+    window.location.href = 'values.html';
+});
+
+document.getElementById('drinks-button').addEventListener('click',function(){
+    window.location.href = 'drinks.html';
+}); */

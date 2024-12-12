@@ -76,6 +76,8 @@ p{
 .main-value-container {
     display: flex;
     flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .mindful-value{
@@ -101,6 +103,7 @@ p{
     order: 2;
     padding-right: 300px;
     padding-top: 200px;
+
     p{
         padding-left: 70px;
     }
@@ -127,9 +130,73 @@ p{
         font-size: 60px;
     }
 
+    #mindful-text{
+        padding-right:30px;
+        padding-top:50px;
+    }
+
+    #mindful-pic {
+        width: 500px; 
+        height: 500px;
+    }
+
+    #wellness-text{
+        padding-right:30px;
+        padding-top:50px;
+    }
+
+    #wellness-pic {
+        width: 500px; 
+        height: 500px;
+    }
 }
 
+@media screen and (max-width: 1200px){
+    #mindful-text{
+        padding-right:30px;
+        padding-top:20px;
+    }
+}
 
+@media screen and (max-width: 900px){
+    .main-value-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    h1{ 
+        text-align: center;
+    }
+
+    h2{
+        text-align:center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .mindful-value{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    #mindful-pic {
+        order: 1;
+    }
+
+    #mindful-text {
+        order: 2;
+    }
+
+
+    .wellness-value{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 800px){
     .navbar{
@@ -149,9 +216,6 @@ p{
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 25px;
-        /*border-top: 2px solid #000000;
-        border-bottom: 2px solid #000000;
-        margin: 0px; */
     }
 
     #drinks-button{
@@ -190,6 +254,16 @@ p{
         padding-right: 30px;
         padding-left: 30px;
     }
+
+    #mindful-pic {
+        width: 600px; 
+        height: 600px;
+    }
+
+    #wellness-pic {
+        width: 600px; 
+        height: 600px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -201,7 +275,7 @@ p{
     }
 
     #cvprimary{
-        width: 300px;
+        width: 200px;
         height: auto;
     }
 
@@ -233,24 +307,44 @@ p{
     }
 
     .image-container {
-        width: 300px; 
-        height: 500px;
+        width: 200px; 
+        height: 400px;
         overflow: hidden; 
         position: relative;
-        min-width: 55%;
+        min-width: 30%;
     }
 
     h1{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 55px;
+        padding-right: 35px;
+    }
+
+    h2{
+        font-size: 20px;
     }
 
     p{
         padding-right: 10px;
         padding-left: 10px;
         font-size: 15px;
+    }
+
+    #mindful-pic {
+        width: 200px; 
+        height: 200px;
+    }
+
+    #wellness-text {
+        margin-left: 0;
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+
+    #wellness-pic {
+        width: 200px; 
+        height: 200px;
     }
 }
 
